@@ -1120,14 +1120,14 @@
     "uuid": "97d71aa8-6987-45b9-8f25-b92671e20ef4"
   }, 
   {
-    "desc": "Flips/Unflips facing/orientation of hand of elements from Revit document", 
+    "desc": "Flips or Unflips elements from Revit document", 
     "iconsrc": "/static/images/GH/FlipUnflipElement.png", 
     "icontag": null, 
     "panel": "Element", 
     "tab": "Revit", 
-    "title": "Flip/Unflip Element", 
+    "title": "Flip Element", 
     "typename": "FlipUnflipElement", 
-    "uuid": "b0f068d0-f160-4f80-86b9-67b7830f1cc2"
+    "uuid": "4cadc9aa-27d9-4804-87ac-477203862afa"
   }, 
   {
     "desc": "Get the geometry of the specified Element", 
@@ -1138,15 +1138,15 @@
     "title": "Element Geometry", 
     "typename": "ElementGeometry", 
     "uuid": "b3bcbf5b-2034-414f-b9fb-97626ff37cbe"
-  },
+  }, 
   {
-    "desc": "Get the geometry of the given Element on a view",
-    "iconsrc": "/static/images/GH/ElementViewGeometry.png",
-    "icontag": null,
-    "panel": "Element",
-    "tab": "Revit",
-    "title": "Element View Geometry",
-    "typename": "ElementViewGeometry",
+    "desc": "Get the geometry of the specified Graphical Element on a view", 
+    "iconsrc": null, 
+    "icontag": "G", 
+    "panel": "Element", 
+    "tab": "Revit", 
+    "title": "Graphical Element Geometry", 
+    "typename": "GraphicalElementGeometry", 
     "uuid": "8b85b1fb-a3df-4924-bc84-58d2b919e664"
   }, 
   {
@@ -1495,7 +1495,7 @@
     "icontag": null, 
     "panel": "Element", 
     "tab": "Revit", 
-    "title": "Pin/Unpin Element", 
+    "title": "Pin Element", 
     "typename": "PinUnPinElement", 
     "uuid": "cc205221-1583-47d1-a715-226c39c3fb34"
   }, 
@@ -1528,15 +1528,15 @@
     "title": "Query Elements", 
     "typename": "QueryElements", 
     "uuid": "0f7da57e-6c05-4dd0-aabf-69e42df38859"
-  },
+  }, 
   {
-    "desc": "Get elements visible in a view",
-    "iconsrc": "/static/images/GH/QueryViewElements.png",
-    "icontag": null,
-    "panel": "Element",
-    "tab": "Revit",
-    "title": "Query View Elements",
-    "typename": "QueryViewElements",
+    "desc": "Get document model elements list", 
+    "iconsrc": null, 
+    "icontag": "Q", 
+    "panel": "Element", 
+    "tab": "Revit", 
+    "title": "Query Graphical Elements", 
+    "typename": "QueryGraphicalElements", 
     "uuid": "79daea3a-13a3-49bf-8beb-aa28e3be4515"
   }, 
   {
@@ -1548,6 +1548,16 @@
     "title": "Add Railing", 
     "typename": "RailingByCurve", 
     "uuid": "601ac666-e369-464e-ae6f-34e01b9dba3b"
+  }, 
+  {
+    "desc": "Analyze given Sloped Glazing Roof element", 
+    "iconsrc": null, 
+    "icontag": "A", 
+    "panel": "Roof", 
+    "tab": "Revit", 
+    "title": "Analyze Sloped Glazing Roof", 
+    "typename": "AnalyzeFootPrintRoof", 
+    "uuid": "d7800083-7950-4c3f-8b86-f162ba36144c"
   }, 
   {
     "desc": "Given its outline curve, it adds a Roof element to the active Revit document", 
@@ -1658,16 +1668,6 @@
     "title": "Query Views", 
     "typename": "QueryViews", 
     "uuid": "df691659-b75b-4455-af5f-8a5de485fa05"
-  }, 
-  {
-    "desc": "Given a plane, it adds a 3D View to the active Revit document", 
-    "iconsrc": "/static/images/GH/View3DByPlane.png", 
-    "icontag": null, 
-    "panel": "View", 
-    "tab": "Revit", 
-    "title": "Add View3D", 
-    "typename": "View3DByPlane", 
-    "uuid": "f7b775c9-05e0-40f7-85e9-5cc2ef79731e"
   }, 
   {
     "desc": "Analyze given Stacked Wall element", 
